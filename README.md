@@ -105,7 +105,7 @@ Six German traffic sign images were downloaded from web. The classes were checke
 The web images were scaled to 32x32 and gray-scaled,normalised as was done for train,valid,test set for the execution on model.
 
 The following resuls were obtained after model was executed on the web images :
-
+(Reference - Jupyter notebook file-Section "Predcit the sign type of each image")
 ```
 Predicted Labels : 
 [ 5 17 38  5 30  5]
@@ -119,9 +119,31 @@ Image number  4 :--> Incorrect Prediction
 Image number  5 :--> Correct Prediction 
 Image number  6 :--> Incorrect Prediction 
 ```
-The accuracy for the web images equals: 33.33 %
+The accuracy for the web images equals: 33.33 %.
 
-The images w
+The performance of model using web images (when compared to test images) can be improved by :
+* Including more images of object classes in the training set which are having less numbers (as seen in above histogram).
+* Adding variations to image data such as brightness, scaling, rotations (+-30 degrees).
+* Adjusting learning rate in neural network to address learning decay (for ex. decreasing learning rate etc.)
+
+The softmax probablities are as below :
+(Reference - Jupyter notebook file-Section "Output Top 5 Softmax Probabilities For Each Image Found on the Web")
+```
+[[1.0334418e-01 9.1354832e-02 7.4014686e-02 5.6815203e-02 5.3030089e-02]
+ [1.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00 0.0000000e+00]
+ [1.0000000e+00 7.8130432e-21 3.5432267e-37 4.7978341e-38 3.9192255e-38]
+ [1.0334418e-01 9.1354832e-02 7.4014686e-02 5.6815203e-02 5.3030089e-02]
+ [9.8553061e-01 6.3923616e-03 4.3876907e-03 2.0950544e-03 7.7622582e-04]
+ [1.0334418e-01 9.1354832e-02 7.4014686e-02 5.6815203e-02 5.3030089e-02]]
+[[ 5 12  7  4  8]
+ [17  0  1  2  3]
+ [38 14 12  1 30]
+ [ 5 12  7  4  8]
+ [30 29 11 26 28]
+ [ 5 12  7  4  8]]
+```
+
+## Conclusion 
 
 
 
