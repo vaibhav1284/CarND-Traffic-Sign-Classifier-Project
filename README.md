@@ -24,7 +24,7 @@ The german traffic data set was explored. It had primarly three files(train,vali
 
 The object classes were visually in a histogram to understand the *number of images/class*
 
-[this free course](https://www.udacity.com/course/writing-readmes--ud777)
+![Lanes Image](./output_images/final_result_test3.jpg)
 
 
 
