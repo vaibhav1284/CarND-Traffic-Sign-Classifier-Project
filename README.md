@@ -102,6 +102,26 @@ Six German traffic sign images were downloaded from web. The classes were checke
 
 ![Lanes Image](./Ref_Images/Web_examples.png)
 
+The web images were scaled to 32x32 and gray-scaled,normalised as was done for train,valid,test set for the execution on model.
+
+The following resuls were obtained after model was executed on the web images :
+
+```
+Predicted Labels : 
+[ 5 17 38  5 30  5]
+Actual Labels:
+[22 17 25 23 30 14]
+
+Image number  1 :--> Incorrect Prediction 
+Image number  2 :--> Correct Prediction 
+Image number  3 :--> Incorrect Prediction 
+Image number  4 :--> Incorrect Prediction 
+Image number  5 :--> Correct Prediction 
+Image number  6 :--> Incorrect Prediction 
+```
+The accuracy for the web images equals: 33.33 %
+
+The images w
 
 
 
