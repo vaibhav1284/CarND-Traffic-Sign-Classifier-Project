@@ -22,3 +22,12 @@ The german traffic data set was explored. It had primarly three files(train,vali
 * Validation Image : Training exmaples : **4410**
 * Test Images : Training exmaples : **12630**
 
+The object classes were visually in a histogram to understand the *number of images/class*
+
+[this free course](https://www.udacity.com/course/writing-readmes--ud777)
+
+
+
+
+
+
