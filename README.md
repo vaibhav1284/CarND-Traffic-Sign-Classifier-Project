@@ -98,6 +98,12 @@ Model results are as follows -
 
 ## Testing Models on Web Images
 
+Six German traffic sign images were downloaded from web. The classes were checked from *signnames.csv* and accordingly the data set was created to run and validate model. (Reference - Jupyter notebook file-Section "Test a Model on new Images",Line# 1-25)
+
+![Lanes Image](./Ref_Images/Web_examples.png)
+
+
+
 
 
 
