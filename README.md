@@ -5,8 +5,8 @@ Overview
 ---
 This project is developed to identify German traffic signs using deep neural networks to detect and classify object classes.Convolutional Neural Networks are used in this project with multiple layers. The training ,validation and testing is done using the provided dataset. The model is further executed on a set of 6 images from web to demonstrate its working and classification.
 
-The below paths can be checked for source code and html file :
-./Traffic_Sign_Classifier.ipynb
-./Traffic_Sign_Classifier.html
+The below files are present in root directory :
+Traffic_Sign_Classifier.ipynb
+Traffic_Sign_Classifier.html
 
 
