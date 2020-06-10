@@ -122,7 +122,7 @@ Image number  6 :--> Incorrect Prediction
 The accuracy for the web images equals: 33.33 %.
 
 The performance of model using web images (when compared to test images) can be improved by :
-* Including more images of object classes in the training set which are having less numbers (as seen in above histogram).
+* Adding images for object classes in the training set which are having less numbers (as seen in above histogram).
 * Adding variations to image data such as brightness, scaling, rotations (+-30 degrees).
 * Adjusting learning rate in neural network to address learning decay (for ex. decreasing learning rate etc.)
 
@@ -143,9 +143,6 @@ The softmax probablities are as below :
  [ 5 12  7  4  8]]
 ```
 
-## Conclusion 
+## Discussions
 
-
-
-
-
+The project was developed based on LeNET model which was developed to identify digits (0-9). The german traffic sign has pattern in the images which are complex in nature when compared to digits. Also, image variations (noise,occlusion,weather conditions,blurring due to vehicle speed,dirt,deformation etc.) on actual images will be much more. Its imperative that the network is trained on a set of varied set of image data (with large and equal number of images) so that network understands the patterns well. Further improvements can be done in neural network by introducing regularizatons (drop outs etc.),learning rate decay, EPOCH,batch size etc. to improve network predictability.
