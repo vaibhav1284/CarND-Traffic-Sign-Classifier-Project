@@ -26,8 +26,15 @@ The object classes were visually in a histogram to understand the *number of ima
 
 ![Lanes Image](./Ref_Images/Object_class.png)
 
+The training data set images were visualised to understand the variations,orientations.
 
+![Lanes Image](./Ref_Images/DataSet_Images.png)
 
+A particular class images were also visualed and analysed (for ex. speed sign 20)
+
+![Lanes Image](./Ref_Images/Sample_20Km_Image.png)
+
+## Data Set Exploration
 
 
 
